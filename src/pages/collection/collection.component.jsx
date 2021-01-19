@@ -7,15 +7,11 @@ import { selectCollection } from "../../redux/shop/shop.selectors";
 
 import "./collection.styles.scss";
 
-const CollectionPage = ({ collection }) => {
-  console.log("collection: ", collection);
-
-  return (
-    <div className="collection-page">
-      <h2>Collection PAGE</h2>
-    </div>
-  );
-};
+const CollectionPage = () => (
+  <div className="collection-page">
+    <h2>Collection PAGE</h2>
+  </div>
+);
 
 const mapStateToProps = (state, ownProps) => ({
   collection: selectCollection(ownProps.match.params.collectionId)(state),
