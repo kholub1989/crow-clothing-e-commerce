@@ -3,7 +3,8 @@ import "firebase/firestore";
 import "firebase/auth";
 
 const config = {
-  apiKey: process.env.REACT_APP_API_KEY,
+  // apiKey: process.env.REACT_APP_API_KEY,
+  apiKey: "AIzaSyA52LRtee_L69d07QYSFwPVNJUISGznGbw",
   authDomain: "crow-clothing-db.firebaseapp.com",
   projectId: "crow-clothing-db",
   storageBucket: "crow-clothing-db.appspot.com",
